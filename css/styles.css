@@ -1,0 +1,121 @@
+body{
+    /* background-color: #EEF1FF; */
+    margin: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EEF1FF;
+}
+
+h1{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+    color: #3F0071;
+    
+}
+
+h2{
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    font-weight: normal;
+    /* margin-block-start: 0;
+    margin-block-end: 0;  */
+    color: #3F0071;
+    
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #150050;
+}
+p{
+    /* font-family: 'Sacramento', cursive; */
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.top-container{
+    background-color: #EEF1FF;
+    position: relative;
+    padding-top: 100px;
+    height: 90vh;
+    /*  #EEF1FF */
+}
+
+.middle-container{
+    background-color: #B1B2FF;
+}
+
+.bottom-container{
+    background-color: #EEF1FF;
+    color: #150050;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.top-cloud{
+    position:absolute;
+    right: 400px;
+    top: 50px;
+   
+}
+
+.bottom-cloud{
+    position:absolute;
+    left: 400px;
+    bottom: 300px;
+}
+
+.profile-pic{
+    width:20%;
+    padding-top: 30px;
+}
+
+.skill-row{
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+
+hr{
+    border-color: #3F0071;
+    border-width: 5px;
+    border-style: dotted none none;
+    width: 5%;
+}
+
+
+.html{
+    padding: 0px 30px 0px 0px;
+    width: 20%;
+    float: left;
+    
+}
+
+.css{
+    padding: 0px 0px 0px 30px;
+    width: 15%;
+    float: right;
+}
+
+.contact-me{
+    font-family: 'Montserrat', sans-serif;
+}
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    color: #B1B2FF;
+    font-size: 20px;
+    background: #3F0071;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    text-decoration: none;
+  }
+#name{
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+}
